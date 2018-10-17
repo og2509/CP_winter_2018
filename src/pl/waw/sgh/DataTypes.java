@@ -41,8 +41,8 @@ public class DataTypes {
         System.out.println("d3=" + d3);
 
         int ii1, ii2;
-        ii1 = 4;
-        ii2 = 5;
+        ii1 = 3;
+        ii2 = 6;
 
         boolean cond = ii1 == ii2;
 
@@ -56,6 +56,15 @@ public class DataTypes {
         } else {
             System.out.println("ii2 not eq ii1");
         }
+
+        int iii = (ii1 > 5 ? 15 : 10);
+
+        if (ii1 > 5)
+            iii = 15;
+        else
+            iii = 10;
+
+        System.out.println("iii=" + iii);
     }
     }
 
