@@ -39,7 +39,25 @@ public class DataTypes {
         double d3 = Math.pow(d1, d2);
 
         System.out.println("d3=" + d3);
+
+        int ii1, ii2;
+        ii1 = 4;
+        ii2 = 5;
+
+        boolean cond = ii1 == ii2;
+
+        // ! - negate
+        // || = OR
+        // && = AND
+
+
+        if (cond || (ii2 > 3 && ii1 > 5)) {
+            System.out.println("ii2=ii1");
+        } else {
+            System.out.println("ii2 not eq ii1");
+        }
+    }
     }
 
 
-}
+
