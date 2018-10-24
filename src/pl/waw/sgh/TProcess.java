@@ -3,10 +3,11 @@ import java.util.ArrayList;
 
 public class TProcess {
     TProcess() {
+
         ActivityList = new ArrayList<TActivity>();
     }
 
-    public void addArrayList(TActivity arg) {
+    public void addActivity(TActivity arg) {
         ActivityList.add(arg);
     }
 
@@ -16,6 +17,6 @@ public class TProcess {
         }
     }
 
-    Private ArrayList(TActivity ActivityList
+    private ArrayList<TActivity> ActivityList;
 
 }

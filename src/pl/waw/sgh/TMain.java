@@ -6,5 +6,7 @@ public class TMain {
         myExams.addActivity(new TActivity("JAVA Programming"));
         myExams.addActivity(new TActivity("Statistical Methods"));
         myExams.addActivity(new TActivity("Business Intelligence"));
+
+        myExams.showProcessState();
     }
 }
