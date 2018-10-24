@@ -5,6 +5,10 @@ public class TActivity {
         this.ActivityName = ActivityName;
     }
 
+    public void showActivityState() {
+        System.out.println(this.ActivityName);
+    }
+
     private String ActivityName;
 
 }
