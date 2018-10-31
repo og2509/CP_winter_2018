@@ -21,7 +21,7 @@ public class Blocks {
             System.out.println("inside a block i2 =" + i2);
             {
                 int i3 = 7;
-                System.out.println("inside internal block i1=" + i1);
+                System.out.println("inside internal block i3=" + i3);
             }
         }
         System.out.println("inside a block i1=" + i1);
