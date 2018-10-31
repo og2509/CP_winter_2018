@@ -4,22 +4,19 @@ import java.util.Scanner;
 
 public class Fibonacci {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int run = sc.nextInt();
+        Scanner scan = new Scanner(System.in);
 
-        int numA = 1;
-        int numB = 0;
-        int result = 0;
-
-        while (true) {
-            result = numA + numB;
-            numB = numA;
-            numA = result;
-            System.out.println(result);
-            if (result >= run)
-                break;
+        int a = 0;
+        a = scan.nextInt();
+        for (int i = 1; i <= a; i++) {
+            System.out.print(fibo(i) + " ");
         }
+    }
 
-        sc.close();
+    public static int fibo(int num) {
+        if (num <= 2) {
+            return 1;
+        }
+        return fibo(num - 2) + fibo(num - 1);
     }
 }
